@@ -1,0 +1,68 @@
+body {
+  background-color: bisque;
+  border: 3px solid black;
+}
+.wrapper {
+  margin: 10px;
+  padding: 30px;
+  border: 1px solid red;
+  border-right: 5px dotted red;
+  width: 60%;
+  position: relative;
+
+}
+.flag {
+/*  margin: 10px;*/
+  padding: 30px;
+  border: 1px solid blue;
+  background-color: blue;
+/*  box-sizing: border-box;*/
+}
+.wrapper01 .flag01 {
+  position: absolute;
+  left: 50%;
+  height: 400px;
+}
+.wrapper01 .flag02 {
+  margin-top: 300px;
+}
+.wrapper01 .flag03 {
+  margin-top: 300px;
+}
+
+.wrapper02 {
+  height: 400px;
+}
+
+.wrapper02 .flag {
+  width: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  float: left;
+}
+
+.wrapper02 .flag01,
+.wrapper02 .flag04,
+.wrapper02 .flag07 {
+  width: 200px;
+
+}
+.wrapper02 .flag02,
+.wrapper02 .flag05,
+.wrapper02 .flag08 {
+  width: 200px;
+
+}
+.wrapper02 .flag03,
+.wrapper02 .flag06,
+.wrapper02 .flag09 {
+  width: 400px;
+
+}
+
+.wrapper02 .flag01,
+.wrapper02 .flag03,
+.wrapper02 .flag07,
+.wrapper02 .flag09 {
+background-color: white;
+}
