@@ -66,3 +66,21 @@ body {
 .wrapper02 .flag09 {
 background-color: white;
 }
+
+.float {
+  border: 5px solid #ff0000;
+  margin: 20px;
+  padding: 10px;
+
+}
+.float02 {
+  border-color: blue;
+  border-right-color: violet;
+}
+.float-wrapper {
+  border: 2px solid green;
+/*  da sperimentare*/
+  display: block;
+  display: inline;
+  display: flex;
+}
