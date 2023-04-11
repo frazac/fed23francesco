@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body {
+  background-color: gold;
+  margin: 0;
+  padding: 0;
+  padding: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.sezione01 .grid-item {
+  border: 1px solid black;
+  padding: 10px;
+/*  width: 10vw;*/
+/*  width: 10%;*/
+  box-sizing: border-box;
+}
+
+.sezione01 .grid-container {
+  display: grid;
+  grid-template-columns: 100px 200px 50% auto;
+  grid-gap: 20px;
+}
+
+.grid-item2 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.grid-item12 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  order: 12;
+}
+.grid-item3 {
+  grid-row-start: 3;
+  grid-row-end: 6;  
+}
+.grid-item13 {
+  order: 11;
+}
+.sezione + .sezione {
+  border-top: 3px solid black;
+  padding: 50px 0;
+}
+.sezione:first-child {
+  padding-bottom: 50px;
+}
+
+.sezione02bis .nonno,
+.sezione02bis .nonno div {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.sezione02bis .nonno .figlia {
+  background-color: aquamarine;
+}
+.sezione02bis .nonno > .figlia {
+  font-family: Georgia;
+  font-size: 2em;
+}
+
+.sezione02 .nonno {
+  background-color: aqua;
+}
+
+@media screen and (min-width: 600px) {  
+  .sezione02 .nonno {
+    background-color: cadetblue;
+  background-image: url("https://www.kabulmagazine.com/wp-content/uploads/2016/12/9.jpg");
+    
+  }  
+}

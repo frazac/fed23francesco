@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+body {
+  background-color: #E77BF8;
+  margin: 0;
+/*  display: flex;*/
+  font-family: 'Poppins', sans-serif;  
+}
+.dim-divspan p {
+  max-width: 375px;
+}
+.dim-divspan div {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 20px;
+}
+.dim-divspan div:first-child {
+  border-color: black;
+}
+.dim-divspan div:last-child {
+  border-color: green;  
+}
+.dim-divspan div:nth-child(1) {
+  border-color: green;
+}
+.dim-divspan div:nth-child(2n) {
+  border-color: red;
+}
+.dim-divspan .capolettera {
+  font-size: 2em;
+  border: 1px solid black;
+  padding: 1em;
+/*  margin-bottom: 1em;*/
+}
+.dim-divspan .capolettera-primo {color: white;}
+
+.dim-position {
+  
+}
+.dim-position .padre {
+  position: relative;
+  border: 1px solid white;
+  background-color: rgba(255,255,255,0.6);
+  margin: 100px;
+  height: 400px;
+}
+.dim-position .figlio {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  border: 1px solid black;
+  background-color: rgba(0,0,0);
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+.dim-position .figlio2 {
+  left: 70px;
+  background-color: rgba(255,0,0);
+  z-index: 1;
+  
+}
+.dim-position .nonno {
+  position: relative;
+  border: 1px solid green;
+}
+.dim-position .zio {
+  left: 70px;
+  background-color: rgba(0,255,0);
+  top: 180px;
+  z-index: 3;
+}
+.dim-flex .nonno {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 50vw;
+/*
+  align-items: flex-end;
+  border: 1px solid red;
+  height: 800px;
+*/
+}
+.dim-flex .padre {
+  border: 1px solid white;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  
+}
+.dim-flex .padre2 {
+/*  flex-basis: 200px;*/
+/*  flex-grow: 2;*/
+}
+.dim-flex .padre8 {
+/*  flex-shrink: 3;*/
+  order: 20;
+}
