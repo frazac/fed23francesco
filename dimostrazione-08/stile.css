@@ -1,0 +1,27 @@
+    body {
+      perspective: 400px;
+    }
+
+    div {
+      transform: rotateY(40deg);
+      margin: 200px auto;
+      transition: all 1s ease-out;
+
+      font-size: 45px;
+      border: 1px solid red;
+      background-color: antiquewhite;
+      width: 200px;
+      height: 200px;
+    }
+
+    div:hover {
+      transform: rotateY(60deg);
+    }
+
+    .stella {
+      fill: red;
+    }
+
+    .stella:hover {
+      fill: blue;
+    }
