@@ -1,0 +1,71 @@
+.dim-1 {
+}
+.dim-1 .griglia {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dim-1 .griglia .scatolo {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+}
+body {
+/*  padding: 0 200px;*/
+padding: 0;
+  margin: 0;
+  margin: 0 10vw;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  box-sizing: border-box;
+
+}
+main {
+  margin: 0 10vw;
+/*
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+*/
+  box-sizing: border-box;
+}
+
+.dim-1 .griglia .scatolo {
+  width: 25%;
+  box-sizing: border-box;
+/*  width: calc(25%-2px);*/
+}
+
+section {
+  margin: 100px 0;
+  padding-bottom: 100px;
+  border-bottom: 2px solid black;
+}
+section:last-child {
+  border-bottom: none;
+}
+
+.dim-2 {
+  
+}
+html {
+  font-size: 120%;
+}
+p {
+}
+p.leader {
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h2.strillo {
+  font-size: 5rem;
+}
+h2.strillo .enorme {
+  font-size: 2em;
+  display: inline;
+}
