@@ -1,0 +1,29 @@
+body {
+  font-family: monospace;
+  border: 1px solid red;
+}
+h1 {
+  font-size:  3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+/*
+p {
+  margin-bottom: 1em;  
+}
+p:last-child {
+  margin-bottom: 0;
+}*/
+
+p + p {
+  margin-top: 1em;    
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
